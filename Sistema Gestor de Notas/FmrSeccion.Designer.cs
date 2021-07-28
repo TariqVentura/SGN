@@ -51,7 +51,7 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.LightBlue;
+            this.toolStrip1.BackColor = System.Drawing.Color.LightGray;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripLabel1,
@@ -82,7 +82,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnCerrar.BackColor = System.Drawing.Color.LightGray;
             this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -94,7 +94,7 @@
             // BtnMinimizar
             // 
             this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnMinimizar.BackColor = System.Drawing.Color.LightGray;
             this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -106,7 +106,7 @@
             // BtnHome
             // 
             this.BtnHome.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnHome.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnHome.BackColor = System.Drawing.Color.LightGray;
             this.BtnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.ImageTransparentColor = System.Drawing.Color.Magenta;

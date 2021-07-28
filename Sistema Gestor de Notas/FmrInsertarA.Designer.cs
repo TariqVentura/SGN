@@ -344,13 +344,13 @@
             this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlumnos.Location = new System.Drawing.Point(20, 264);
             this.dgvAlumnos.Name = "dgvAlumnos";
-            this.dgvAlumnos.Size = new System.Drawing.Size(746, 159);
+            this.dgvAlumnos.Size = new System.Drawing.Size(762, 159);
             this.dgvAlumnos.TabIndex = 45;
             this.dgvAlumnos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlumnos_CellClick);
             // 
             // BtnEliminar
             // 
-            this.BtnEliminar.Location = new System.Drawing.Point(21, 162);
+            this.BtnEliminar.Location = new System.Drawing.Point(32, 162);
             this.BtnEliminar.Name = "BtnEliminar";
             this.BtnEliminar.Size = new System.Drawing.Size(120, 42);
             this.BtnEliminar.TabIndex = 44;
@@ -360,7 +360,7 @@
             // 
             // BtnActualizar
             // 
-            this.BtnActualizar.Location = new System.Drawing.Point(21, 90);
+            this.BtnActualizar.Location = new System.Drawing.Point(32, 90);
             this.BtnActualizar.Name = "BtnActualizar";
             this.BtnActualizar.Size = new System.Drawing.Size(120, 42);
             this.BtnActualizar.TabIndex = 43;
@@ -370,7 +370,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(21, 20);
+            this.button2.Location = new System.Drawing.Point(32, 20);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 42);
             this.button2.TabIndex = 42;
@@ -380,7 +380,7 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.toolStrip1.BackColor = System.Drawing.Color.LightGray;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton4,
             this.toolStripLabel1,
@@ -412,7 +412,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnCerrar.BackColor = System.Drawing.Color.LightGray;
             this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -424,7 +424,7 @@
             // BtnMinimizar
             // 
             this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnMinimizar.BackColor = System.Drawing.Color.LightGray;
             this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -436,7 +436,7 @@
             // BtnHome
             // 
             this.BtnHome.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnHome.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnHome.BackColor = System.Drawing.Color.LightGray;
             this.BtnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -452,7 +452,7 @@
             this.groupBox2.Controls.Add(this.BtnActualizar);
             this.groupBox2.Location = new System.Drawing.Point(605, 36);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(161, 222);
+            this.groupBox2.Size = new System.Drawing.Size(177, 222);
             this.groupBox2.TabIndex = 47;
             this.groupBox2.TabStop = false;
             // 
@@ -460,6 +460,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(794, 435);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

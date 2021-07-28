@@ -77,6 +77,12 @@
     <Compile Include="FmrInsertarN.Designer.cs">
       <DependentUpon>FmrInsertarN.cs</DependentUpon>
     </Compile>
+    <Compile Include="FmrInsertarNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmrInsertarNotas.Designer.cs">
+      <DependentUpon>FmrInsertarNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FmrUserDocente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FmrInsertarN.resx">
       <DependentUpon>FmrInsertarN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmrInsertarNotas.resx">
+      <DependentUpon>FmrInsertarNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmrUserDocente.resx">
       <DependentUpon>FmrUserDocente.cs</DependentUpon>
