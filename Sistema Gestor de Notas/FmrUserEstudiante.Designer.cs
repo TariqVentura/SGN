@@ -200,7 +200,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnCerrar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -212,7 +212,7 @@
             // BtnMinimizar
             // 
             this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnMinimizar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -224,7 +224,7 @@
             // BtnHome
             // 
             this.BtnHome.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnHome.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnHome.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -237,6 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightYellow;
             this.ClientSize = new System.Drawing.Size(753, 744);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.TXTid);

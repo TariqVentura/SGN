@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmrUserDocente));
             this.TXTid = new System.Windows.Forms.TextBox();
             this.GridUsDocente = new System.Windows.Forms.DataGridView();
@@ -63,14 +63,14 @@
             // 
             this.GridUsDocente.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GridUsDocente.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.GridUsDocente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GridUsDocente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.GridUsDocente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridUsDocente.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.GridUsDocente.Location = new System.Drawing.Point(42, 542);
@@ -202,7 +202,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnCerrar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -214,7 +214,7 @@
             // BtnMinimizar
             // 
             this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnMinimizar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -226,7 +226,7 @@
             // BtnHome
             // 
             this.BtnHome.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnHome.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnHome.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -239,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightYellow;
             this.ClientSize = new System.Drawing.Size(707, 711);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.TXTid);
