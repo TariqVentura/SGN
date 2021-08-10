@@ -52,9 +52,10 @@
             // 
             // TXTid
             // 
-            this.TXTid.Location = new System.Drawing.Point(301, 215);
+            this.TXTid.Location = new System.Drawing.Point(13, 50);
+            this.TXTid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TXTid.Name = "TXTid";
-            this.TXTid.Size = new System.Drawing.Size(120, 20);
+            this.TXTid.Size = new System.Drawing.Size(178, 26);
             this.TXTid.TabIndex = 21;
             // 
             // GridUsEstudiante
@@ -70,10 +71,11 @@
             this.GridUsEstudiante.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.GridUsEstudiante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridUsEstudiante.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.GridUsEstudiante.Location = new System.Drawing.Point(59, 281);
+            this.GridUsEstudiante.Location = new System.Drawing.Point(35, 568);
+            this.GridUsEstudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GridUsEstudiante.Name = "GridUsEstudiante";
             this.GridUsEstudiante.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.GridUsEstudiante.Size = new System.Drawing.Size(499, 125);
+            this.GridUsEstudiante.Size = new System.Drawing.Size(692, 117);
             this.GridUsEstudiante.TabIndex = 20;
             this.GridUsEstudiante.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridUsEstudiante_CellClick);
             // 
@@ -81,9 +83,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(55, 181);
+            this.label4.Location = new System.Drawing.Point(232, 302);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 20);
+            this.label4.Size = new System.Drawing.Size(142, 29);
             this.label4.TabIndex = 19;
             this.label4.Text = "Contraseña:";
             // 
@@ -91,32 +94,36 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(55, 100);
+            this.label3.Location = new System.Drawing.Point(232, 161);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.Size = new System.Drawing.Size(102, 29);
             this.label3.TabIndex = 18;
             this.label3.Text = "Usuario:";
             // 
             // TXTcontraseniaestudiante
             // 
-            this.TXTcontraseniaestudiante.Location = new System.Drawing.Point(59, 215);
+            this.TXTcontraseniaestudiante.Location = new System.Drawing.Point(237, 346);
+            this.TXTcontraseniaestudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TXTcontraseniaestudiante.Name = "TXTcontraseniaestudiante";
-            this.TXTcontraseniaestudiante.Size = new System.Drawing.Size(165, 20);
+            this.TXTcontraseniaestudiante.Size = new System.Drawing.Size(246, 26);
             this.TXTcontraseniaestudiante.TabIndex = 17;
             // 
             // TXTusuarioestudiante
             // 
-            this.TXTusuarioestudiante.Location = new System.Drawing.Point(59, 138);
+            this.TXTusuarioestudiante.Location = new System.Drawing.Point(237, 216);
+            this.TXTusuarioestudiante.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TXTusuarioestudiante.Name = "TXTusuarioestudiante";
-            this.TXTusuarioestudiante.Size = new System.Drawing.Size(165, 20);
+            this.TXTusuarioestudiante.Size = new System.Drawing.Size(246, 26);
             this.TXTusuarioestudiante.TabIndex = 16;
             // 
             // BTNeliminar
             // 
             this.BTNeliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTNeliminar.Location = new System.Drawing.Point(465, 204);
+            this.BTNeliminar.Location = new System.Drawing.Point(313, 493);
+            this.BTNeliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTNeliminar.Name = "BTNeliminar";
-            this.BTNeliminar.Size = new System.Drawing.Size(93, 31);
+            this.BTNeliminar.Size = new System.Drawing.Size(140, 52);
             this.BTNeliminar.TabIndex = 15;
             this.BTNeliminar.Text = "Eliminar";
             this.BTNeliminar.UseVisualStyleBackColor = true;
@@ -125,9 +132,10 @@
             // BTNactualizar
             // 
             this.BTNactualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTNactualizar.Location = new System.Drawing.Point(460, 113);
+            this.BTNactualizar.Location = new System.Drawing.Point(545, 497);
+            this.BTNactualizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTNactualizar.Name = "BTNactualizar";
-            this.BTNactualizar.Size = new System.Drawing.Size(98, 31);
+            this.BTNactualizar.Size = new System.Drawing.Size(147, 48);
             this.BTNactualizar.TabIndex = 14;
             this.BTNactualizar.Text = "Actualizar";
             this.BTNactualizar.UseVisualStyleBackColor = true;
@@ -136,9 +144,10 @@
             // BTNagregar
             // 
             this.BTNagregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTNagregar.Location = new System.Drawing.Point(301, 113);
+            this.BTNagregar.Location = new System.Drawing.Point(83, 493);
+            this.BTNagregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTNagregar.Name = "BTNagregar";
-            this.BTNagregar.Size = new System.Drawing.Size(92, 34);
+            this.BTNagregar.Size = new System.Drawing.Size(138, 52);
             this.BTNagregar.TabIndex = 13;
             this.BTNagregar.Text = "Agregar";
             this.BTNagregar.UseVisualStyleBackColor = true;
@@ -148,15 +157,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 54);
+            this.label1.Location = new System.Drawing.Point(277, 82);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 24);
+            this.label1.Size = new System.Drawing.Size(288, 33);
             this.label1.TabIndex = 12;
             this.label1.Text = " Usuario Estudiante";
             // 
             // toolStrip1
             // 
             this.toolStrip1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton4,
             this.toolStripLabel1,
@@ -165,7 +176,8 @@
             this.BtnHome});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(591, 25);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(753, 31);
             this.toolStrip1.TabIndex = 40;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -175,14 +187,14 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton4.Size = new System.Drawing.Size(28, 28);
             this.toolStripButton4.Text = "toolStripButton4";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(113, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(171, 28);
             this.toolStripLabel1.Text = "Registara Estudiante";
             // 
             // BtnCerrar
@@ -193,7 +205,7 @@
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(23, 22);
+            this.BtnCerrar.Size = new System.Drawing.Size(28, 28);
             this.BtnCerrar.Text = "Cerrar Pestaña";
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
@@ -205,7 +217,7 @@
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(23, 22);
+            this.BtnMinimizar.Size = new System.Drawing.Size(28, 28);
             this.BtnMinimizar.Text = "Minimizar";
             this.BtnMinimizar.Click += new System.EventHandler(this.BtnMinimizar_Click);
             // 
@@ -217,15 +229,15 @@
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(23, 22);
+            this.BtnHome.Size = new System.Drawing.Size(28, 28);
             this.BtnHome.Text = "Home";
             this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
             // FmrUserEstudiante
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 427);
+            this.ClientSize = new System.Drawing.Size(753, 744);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.TXTid);
             this.Controls.Add(this.GridUsEstudiante);
@@ -238,6 +250,7 @@
             this.Controls.Add(this.BTNagregar);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FmrUserEstudiante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmrUserEstudiante";

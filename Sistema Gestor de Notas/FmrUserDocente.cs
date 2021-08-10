@@ -138,5 +138,15 @@ namespace Sistema_Gestor_de_Notas
             FmrUserEstudiante fmranking = new FmrUserEstudiante();
             fmranking.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TXTid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
