@@ -43,7 +43,6 @@
             this.Correo = new System.Windows.Forms.Label();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
             this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
@@ -190,27 +189,16 @@
             this.toolStrip1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton4,
+            this.BtnHome,
             this.toolStripLabel1,
             this.BtnCerrar,
-            this.BtnMinimizar,
-            this.BtnHome});
+            this.BtnMinimizar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.toolStrip1.Size = new System.Drawing.Size(886, 31);
             this.toolStrip1.TabIndex = 40;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(28, 28);
-            this.toolStripButton4.Text = "toolStripButton4";
-            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripLabel1
             // 
@@ -244,7 +232,6 @@
             // 
             // BtnHome
             // 
-            this.BtnHome.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.BtnHome.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
@@ -302,7 +289,6 @@
         private System.Windows.Forms.Label Correo;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripButton BtnCerrar;
         private System.Windows.Forms.ToolStripButton BtnMinimizar;

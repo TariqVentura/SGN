@@ -68,7 +68,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.BtnCerrar = new System.Windows.Forms.ToolStripButton();
             this.BtnMinimizar = new System.Windows.Forms.ToolStripButton();
@@ -479,27 +478,16 @@
             this.toolStrip1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
+            this.toolStripButton4,
             this.toolStripLabel1,
             this.BtnCerrar,
-            this.BtnMinimizar,
-            this.toolStripButton4});
+            this.BtnMinimizar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.toolStrip1.Size = new System.Drawing.Size(1124, 31);
             this.toolStrip1.TabIndex = 63;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.BackColor = System.Drawing.Color.LightBlue;
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(28, 28);
-            this.toolStripButton1.Text = "toolStripButton1";
             // 
             // toolStripLabel1
             // 
@@ -510,7 +498,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnCerrar.BackColor = System.Drawing.Color.LightGray;
+            this.BtnCerrar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnCerrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -522,7 +510,7 @@
             // BtnMinimizar
             // 
             this.BtnMinimizar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BtnMinimizar.BackColor = System.Drawing.Color.LightGray;
+            this.BtnMinimizar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnMinimizar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
             this.BtnMinimizar.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -533,8 +521,7 @@
             // 
             // toolStripButton4
             // 
-            this.toolStripButton4.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton4.BackColor = System.Drawing.Color.LightGray;
+            this.toolStripButton4.BackColor = System.Drawing.Color.LightSkyBlue;
             this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -634,7 +621,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripButton BtnCerrar;
         private System.Windows.Forms.ToolStripButton BtnMinimizar;
